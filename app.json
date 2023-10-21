@@ -1,7 +1,7 @@
-{
+ط{
     "name": "تنصيب بوت تشغيل القران",
         "description": "بوت تشغيل القران الحد للتشغيل 90 دقيقة",
-    "logo": "https://telegra.ph/file/69bafebb4fab335f2acc6.jpg",
+    "logo": "https://telegra.ph/file/66583155ffd41860a871e.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -59,4 +59,4 @@
           }
       ],
       "stack": "container"
-  }
+}
