@@ -1,0 +1,62 @@
+{
+    "name": "تنصيب بوت تشغيل القران",
+        "description": "بوت تشغيل القران الحد للتشغيل 90 دقيقة",
+    "logo": "https://telegra.ph/file/69bafebb4fab335f2acc6.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Mahmoud",
+    "quranbot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": " ضـع ايبي ايدي احصل علية من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": " ضـع ايبي هاش احصل علية من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ضـع تـوكـن بـوتـك هـنـا",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ضـع ايـديـك هـنـا",
+        "value": "",
+        "required": true
+      },
+      "SESSION": {
+        "description": "ضـع جلسة البايروجرام ",
+        "value": "",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "ضـع ايـدي الـحـسـاب الـمـسـاعـد",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "ضـع رابـط جـروب الـدعـم",
+        "value": "https://t.me/VY_GROUP",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
